@@ -161,8 +161,8 @@ function submitAnswer(){
                 hintText.classList.add('hide')
                 level7Images.classList.remove('hide')
                 levelText.innerHTML = "LEVEL " + questionIndex
-                questionText.innerHTML = "_ _ _ _ _ _ㅤ_ _ _ _ _ _ _ _ _ _ _"
-                hintText.innerHTML = "HINT: _ E N D _ Rㅤ_ N _ L U S _ _ I T Y"
+                questionText.innerHTML = "_ _ _ _ _ _/_ _ _ _ _ _ _ _ _ _ _"
+                hintText.innerHTML = "HINT: _ E N D _ R/_ N _ L U S _ _ I T Y"
                 correctSound.play()
 				correctSound.volume = 0.1
             } else {
@@ -179,8 +179,8 @@ function submitAnswer(){
                 hintText.classList.add('hide')
                 level8Images.classList.remove('hide')
                 levelText.innerHTML = "LEVEL " + questionIndex
-                questionText.innerHTML = "_ _ _ _ _ _ _ _ _ㅤ_ _ _ _ _ _ _ _ _"
-                hintText.innerHTML = "HINT: _ _ C L _ S _ V EㅤE _ _ C A _ I _ N"
+                questionText.innerHTML = "_ _ _ _ _ _ _ _ _/_ _ _ _ _ _ _ _ _"
+                hintText.innerHTML = "HINT: _ _ C L _ S _ V E/E _ _ C A _ I _ N"
                 correctSound.play()
 				correctSound.volume = 0.1
             } else {
@@ -197,8 +197,8 @@ function submitAnswer(){
                 hintText.classList.add('hide')
                 level9Images.classList.remove('hide')
                 levelText.innerHTML = "LEVEL " + questionIndex
-                questionText.innerHTML = "_ _ _ _ㅤ_ _ _ _ _ _ _ _"
-                hintText.innerHTML = "HINT: _ I G _ㅤL _ N G _ _ G _"
+                questionText.innerHTML = "_ _ _ _/_ _ _ _ _ _ _ _"
+                hintText.innerHTML = "HINT: _ I G _/L _ N G _ _ G _"
                 correctSound.play()
 				correctSound.volume = 0.1
             } else {
@@ -215,8 +215,8 @@ function submitAnswer(){
                 hintText.classList.add('hide')
                 level10Images.classList.remove('hide')
                 levelText.innerHTML = "LEVEL " + questionIndex
-                questionText.innerHTML = "_ _ _ _ _ _ㅤ_ _ _ _ㅤ_ _ _ _ _ _ _ _ _ _"
-                hintText.innerHTML = "HINT: P _ R S _ NㅤW _ T HㅤD _ S A _ _ L _ T Y"
+                questionText.innerHTML = "_ _ _ _ _ _/_ _ _ _/_ _ _ _ _ _ _ _ _ _"
+                hintText.innerHTML = "HINT: P _ R S _ N/W _ T H/D _ S A _ _ L _ T Y"
                 correctSound.play()
 				correctSound.volume = 0.1
             } else {
